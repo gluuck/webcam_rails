@@ -45,7 +45,7 @@ ActiveRecord::Schema.define(version: 2021_03_11_123216) do
 
   create_table "players", force: :cascade do |t|
     t.string "name"
-    t.date "dop"
+    t.date "dob"
     t.string "pob"
     t.integer "age"
     t.float "height"

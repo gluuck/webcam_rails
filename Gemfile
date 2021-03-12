@@ -39,6 +39,7 @@ group :test do
   gem 'webdrivers'
   gem 'factory_bot_rails'
   gem 'shoulda-matchers'
+  gem 'pry-rails'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
